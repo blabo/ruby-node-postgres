@@ -1,4 +1,5 @@
-FROM ruby:2.5.3
+FROM ruby:2.6.0
+MAINTAINER Blabo <dev@bla.bo>
 ENV LANG C.UTF-8
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - >/dev/null
