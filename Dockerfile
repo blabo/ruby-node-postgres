@@ -1,5 +1,5 @@
-FROM ruby:2.6.2
-MAINTAINER Blabo <dev@bla.bo>
+FROM ruby:2.6.6
+LABEL maintainer "Blabo <dev@bla.bo>"
 ENV LANG C.UTF-8
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - >/dev/null
